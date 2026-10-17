@@ -59,6 +59,12 @@ Do not put secrets in source control. Provide safe example values in
 
 [TODO: Document deployment targets, required configuration, and release process.]
 
+## Versioning and releases
+
+This repository uses Conventional Commits to automate Semantic Versioning,
+GitHub Releases, and the [changelog](./CHANGELOG.md). See
+[RELEASING.md](./RELEASING.md) for commit conventions and release details.
+
 ## Security
 
 See [SECURITY.md](./SECURITY.md) for vulnerability reporting guidance.
