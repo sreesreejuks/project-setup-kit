@@ -1,0 +1,11 @@
+# Replace these examples with GitHub usernames or team handles.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default reviewers for all files
+* @TODO-OWNER
+
+# Example: security-sensitive code
+# /src/auth/ @TODO-SECURITY-TEAM
+
+# Example: CI and release configuration
+# /.github/ @TODO-MAINTAINERS
