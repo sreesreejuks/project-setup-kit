@@ -6,6 +6,9 @@
       "@semantic-release/commit-analyzer",
       {
         "preset": "conventionalcommits",
+        "presetConfig": {
+          "presetPackage": "conventional-changelog-conventionalcommits"
+        },
         "releaseRules": [
           { "breaking": true, "release": "major" },
           { "type": "docs", "release": "patch" }
@@ -15,7 +18,10 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalcommits"
+        "preset": "conventionalcommits",
+        "presetConfig": {
+          "presetPackage": "conventional-changelog-conventionalcommits"
+        }
       }
     ],
     "@semantic-release/changelog",
